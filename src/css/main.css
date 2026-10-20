@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    max-width: 90%;
+}
+
+/*---------------------------
+    APRESENTACAO
+--------------------------*/ 
+#apresentacao {
+    display: flex;
+    gap: 32px;
+}
+
+aside {
+    width: 500px;
+    background-color: var(--painel);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 18px -9px var(--cinza);
+}
+
+aside p{
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.title{
+    color: var(--texto-suave);
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 24px;
+}
+#cta h1 {
+    font-size: 64px;
+}
+#cta p {
+    font-size: 20px;
+}
+

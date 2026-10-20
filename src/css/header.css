@@ -1,0 +1,18 @@
+header {
+    padding: 16px;
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navList {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav a {
+    color: var(--tinta);
+}
