@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav id="navBar">
-            <h1 id="logo">Arthur Ferreira</h1>
+            <h1 id="logo"><span style="color: var(--roxo);">A</span>rthur <span style="color: var(--roxo);">F</span>erreira</h1>
 
             <ul id="navList">
                 <li>
@@ -30,7 +30,7 @@
                     <a href="#contatos">Contatos</a>
                 </li>
                 <li>
-                    <a class="action-button" href="#github">Github</a>
+                    <a class="action-button" href="https://github.com/FerreiraArth" target="_blank">Github</a>
                 </li>
             </ul>
         </nav>
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <aside>
+            <aside class="code">
                 <p class="title">procuro</p>
                 <p class="sub-title">primeira vaga como dev web júnior</p>
 
@@ -63,14 +63,105 @@
             </aside>
         </section>
 
-        <section id="projetos"></section>
+        <section id="projetos">
+            <h2><span style="color: var(--roxo);">P</span>rojetos</h2>
 
-        <section id="habilidades"></section>
+            <div class="projeto">
+
+                <div class="descricao">
+                    <h3>Maleri Group</h3>
+
+                    <p class="title">Landing page para um cliente real: empresa de manutenção industrial e usinagem de João Monlevade, MG.</p>
+
+                    <ul>
+                        <li>Briefing feito com cliente</li>
+                        <li>Serviços, projetos e contato, com WhatsApp como chamada principal</li>
+                        <li>Publicada no GitHub Pages</li>
+                    </ul>
+
+                    <p class="title">HTML • CSS • JavaScript</p>
+
+                    <a class="action-button" href="https://ferreiraarth.github.io/MaleriGroup/" target="_blank">Abrir site</a>
+
+                </div>
+
+                <img src="src/assets/images/projetoMaleri.png" alt="">
+
+            </div>
+
+            <div class="projeto">
+                
+                <div class="descricao">
+                    <h3>Task System - JS</h3>
+
+                    <p class="title">Lista de tarefas em JavaScript, publicada no GitHub Pages.</p>
+
+                    <ul>
+                        <li>Manipulação de DOM e filtros com data-filtro</li>
+                        <li>Tema escuro</li>
+                        <li>Layout responsivo</li>
+                        <li>CSS organizado em arquivos separados</li>
+                    </ul>
+
+                    <p class="title">HTML • CSS • JavaScript</p>
+
+                    <a class="action-button" href="https://ferreiraarth.github.io/taskSystem-js/" target="_blank">Abrir demo</a>
+
+                </div>
+
+                <img src="src/assets/images/projetoToDoList.png" alt="projetoToDoList">
+            </div>
+
+            <div class="projeto-desenvolvimento">
+                <div>
+                    <h3>Catálogo de Produtos</h3>
+                    <p class="title">Consome a Fake Store API com fetch.</p>
+                </div>
+                
+                
+                <div class="status">
+                    <p>em desenvolvimento</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="habilidades">
+            <h2><span style="color: var(--roxo);">H</span>abilidades</h2>
+            <div id="base">
+                <h3>Base</h3>
+
+                <ul>
+                    <li>HTML e CSS, com layout responsivo e tema escuro</li>
+                    <li>JavaScript, com manipulação de DOM</li>
+                    <li>Git e GitHub, com deploy no GitHub Pages</li>
+                    <li>Python, noções básicas</li>
+                </ul>
+            </div>
+            
+            <div id="emEstudo">
+                <h3>Em estudo</h3>
+
+                <ul>
+                    <li>Agora: JavaScript, DOM e consumo de API com fetch</li>
+                    <li>Depois, nesta ordem: SQL, React e TypeScript</li>
+                </ul>
+            </div>
+        </section>
 
     </main>
 
     <footer>
+        <div>
+            <h1>Procuro minha primeira vaga como dev web júnior.</h1>
 
+            <p class="title">Todo o código está no GitHub. Se algum projeto chamou sua atenção, escreva para mim.</p>
+        </div>
+
+        <div class="buttons">
+            <a href="#" class="action-button">Abrir GitHub</a>
+            <a href="#" class="action-button2">LinkedIn</a>
+        </div>
     </footer>
 </body>
 </html>

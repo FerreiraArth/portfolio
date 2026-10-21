@@ -1,5 +1,10 @@
 header {
+    width: 100%;
     padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    backdrop-filter: blur(2px);
 }
 #navBar {
     display: flex;

@@ -1,28 +1,24 @@
 main {
-    display: flex;
-    justify-content: center;
-}
-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80vh;
-    max-width: 90%;
+    width: 100%;
 }
 
 /*---------------------------
     APRESENTACAO
---------------------------*/ 
+---------------------------*/ 
 #apresentacao {
     display: flex;
-    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-aside {
+.code {
     width: 500px;
     background-color: var(--painel);
     padding: 16px;
     border-radius: 8px;
+    border: solid 1px var(--borda);
+    font-family: var(--font-code);
     box-shadow: 5px 5px 18px -9px var(--cinza);
 }
 
@@ -48,3 +44,6 @@ aside p{
     font-size: 20px;
 }
 
+/*---------------------------
+    PROJETOS
+---------------------------*/ 
