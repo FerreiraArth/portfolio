@@ -2,6 +2,7 @@
 @import url("buttons.css");
 @import url("main.css");
 @import url("projects.css");
+@import url("skill.css");
 
 * {
     padding: 0;
