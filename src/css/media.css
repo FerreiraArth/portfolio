@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+    #apresentacao {
+        height: 100vh;
+    }
+
+    #cta h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 805px) {
+    #apresentacao {
+        flex-direction: column;
+
+        height: 100vh;
+        margin-bottom: 36px;
+    }
+
+    #cta {
+        max-width: 80%;
+    }
+
+    #cta h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    /*HEADER*/
+    #navList {
+        display: none;
+    }
+    
+    /*APRESENTACAO*/
+    .code {
+        width: 400px;
+        background-color: var(--painel);
+        padding: 16px;
+        border-radius: 8px;
+        border: solid 1px var(--borda);
+        font-family: var(--font-code);
+        box-shadow: 5px 5px 18px -9px var(--cinza);
+    }
+
+    /*PROJETOS*/
+
+    
+}

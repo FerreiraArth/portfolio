@@ -3,17 +3,32 @@ main {
 }
 
 /*---------------------------
-    APRESENTACAO
+APRESENTACAO
 ---------------------------*/ 
 #apresentacao {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+    gap: 28px;
+    padding: 32px;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 24px;
+}
+#cta h1 {
+    font-size: 4rem;
+}
+#cta p {
+    font-size: 20px;
 }
 
 .code {
-    width: 500px;
+    width: 100%;
     background-color: var(--painel);
     padding: 16px;
     border-radius: 8px;
@@ -31,18 +46,6 @@ aside p{
     color: var(--texto-suave);
 }
 
-#cta {
-    display: flex;
-    flex-direction: column;
-    max-width: 40%;
-    gap: 24px;
-}
-#cta h1 {
-    font-size: 64px;
-}
-#cta p {
-    font-size: 20px;
-}
 
 /*---------------------------
     PROJETOS
