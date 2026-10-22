@@ -1,4 +1,6 @@
 @media (max-width: 1200px) {
+    /*APRESENTACAO*/
+
     #apresentacao {
         height: 100vh;
     }
@@ -6,9 +8,17 @@
     #cta h1 {
         font-size: 2rem;
     }
+
+    /*PROJETOS*/
+
+    #projetoDesenvolvimento {
+        width: 80%;
+    }
 }
 
 @media (max-width: 805px) {
+    /*APRESENTACAO*/
+
     #apresentacao {
         flex-direction: column;
 
@@ -17,23 +27,39 @@
     }
 
     #cta {
-        max-width: 80%;
+        max-width: 90%;
     }
 
-    #cta h1 {
-        font-size: 2rem;
+    /*PROJETOS*/
+
+    .projeto {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    img {
+        max-width: 80%;
+    }
+    #projetoDesenvolvimento {
+        width: 95%;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        width: 60%;
     }
 }
 
 @media (max-width: 600px) {
+
     /*HEADER*/
+
     #navList {
         display: none;
     }
     
     /*APRESENTACAO*/
     .code {
-        width: 400px;
         background-color: var(--painel);
         padding: 16px;
         border-radius: 8px;
@@ -42,7 +68,51 @@
         box-shadow: 5px 5px 18px -9px var(--cinza);
     }
 
+    .code p {
+        margin-bottom: 3px;
+    }
+
+    #apresentacao {
+        padding: 12px;
+    }
+    #apresentacao h1 {
+        font-size: 1.6rem;
+    }
+    #apresentacao p {
+        font-size: 1rem;
+    }
+
     /*PROJETOS*/
 
-    
+    img {
+        max-width: 100%;
+    }
+
+    #projetoDesenvolvimento {
+        flex-direction: column;
+        padding: 8px;
+        gap: 16px;
+    }
+    .status {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*HABILIDADES*/
+
+    #habilidades {
+        height: 100%;
+    }
+    #content {
+        flex-direction: column;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        width: 90%;
+    }
+    footer h1{
+        font-size: 1.5rem;
+    }
 }

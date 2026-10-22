@@ -1,5 +1,6 @@
 main {
     width: 100%;
+    border-bottom: solid 1px var(--cinza);
 }
 
 /*---------------------------
@@ -29,6 +30,7 @@ APRESENTACAO
 
 .code {
     width: 100%;
+    max-width: 600px;
     background-color: var(--painel);
     padding: 16px;
     border-radius: 8px;
@@ -37,7 +39,7 @@ APRESENTACAO
     box-shadow: 5px 5px 18px -9px var(--cinza);
 }
 
-aside p{
+.code p{
     margin-bottom: 8px;
     line-height: 1.5;
 }

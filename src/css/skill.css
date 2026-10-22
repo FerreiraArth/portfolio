@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
 
     margin-bottom: 32px;
 }
@@ -17,18 +16,16 @@
     display: flex;
     justify-content: center;
     gap: 24px;
-    min-width: 80%;
+    max-width: 80%;
     list-style-position: inside; 
 }
 
 #base {
     padding: 16px;
-    width: 40%;
     border-top: solid 5px var(--tinta);
 }
 
 #emEstudo {
-    width: 40%;
     padding: 16px;
     border-top: solid 5px var(--cinza);
 }
