@@ -10,7 +10,7 @@ APRESENTACAO
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    min-height: 90vh;
     gap: 28px;
     padding: 32px;
 }
@@ -41,11 +41,14 @@ APRESENTACAO
 
 .code p{
     margin-bottom: 8px;
-    line-height: 1.5;
 }
 
 .title{
     color: var(--texto-suave);
+}
+
+.email{
+    color: var(--tinta);
 }
 
 

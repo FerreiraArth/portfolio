@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav id="navBar">
-            <h1 id="logo"><span style="color: var(--roxo);">A</span>rthur <span style="color: var(--roxo);">F</span>erreira</h1>
+            <a href="#" id="logo"><span class="cor">A</span>rthur <span class="cor">F</span>erreira</a>
 
             <ul id="navList">
                 <li>
@@ -46,7 +46,7 @@
 
                 <div class="buttons">
                     <a class="action-button" href="#projetos">Ver projetos</a>
-                    <a class="action-button2" href="src/assets/pdf/curriculo.docx" download="curriculo.docx">Baixar currículo</a>
+                    <a class="action-button2" href="src/assets/doc/curriculo.docx" download="curriculo.docx">Baixar currículo</a>
                 </div>
             </div>
 
@@ -61,12 +61,12 @@
                 <p class="sub-title">Ipatinga - MG • presencial ou remoto</p>
 
                 <p class="title">contato</p>
-                <p class="sub-title">arthurferreir4a4@gmail.com</p>
+                <a href="mailto:arthurferreir4a4@gmail.com" class="email">arthurferreir4a4@gmail.com</a>
             </aside>
         </section>
 
         <section id="projetos">
-            <h2><span style="color: var(--roxo);">P</span>rojetos</h2>
+            <h2><span class="cor">P</span>rojetos</h2>
 
             <div class="projeto">
 
@@ -82,12 +82,14 @@
                     </ul>
 
                     <p class="title">HTML • CSS • JavaScript</p>
-
-                    <a class="action-button" href="https://ferreiraarth.github.io/MaleriGroup/" target="_blank">Abrir site</a>
+                    <div class="buttons">
+                        <a class="action-button" href="https://ferreiraarth.github.io/MaleriGroup/" target="_blank">Abrir site</a>
+                        <a class="action-button2" href="https://github.com/FerreiraArth/MaleriGroup" target="_blank">Ver código</a>
+                    </div>
 
                 </div>
 
-                <img src="src/assets/images/projetoMaleri.png" alt="">
+                <img src="src/assets/images/projetoMaleri.png" alt="MaleriGroup">
 
             </div>
 
@@ -107,7 +109,10 @@
 
                     <p class="title">HTML • CSS • JavaScript</p>
 
-                    <a class="action-button" href="https://ferreiraarth.github.io/taskSystem-js/" target="_blank">Abrir demo</a>
+                    <div class="buttons">
+                        <a class="action-button" href="https://ferreiraarth.github.io/taskSystem-js/" target="_blank">Abrir demo</a>
+                        <a class="action-button2" href="https://github.com/FerreiraArth/taskSystem-js" target="_blank">Ver código</a>
+                    </div>
 
                 </div>
 
@@ -120,7 +125,6 @@
                     <p class="title">Consome a Fake Store API com fetch.</p>
                 </div>
                 
-                
                 <div class="status">
                     <p>em desenvolvimento</p>
                 </div>
@@ -129,7 +133,7 @@
         </section>
 
         <section id="habilidades">
-            <h2><span style="color: var(--roxo);">H</span>abilidades</h2>
+            <h2><span class="cor">H</span>abilidades</h2>
             
             <div id="content">
 
@@ -158,9 +162,9 @@
         </section>
     </main>
 
-    <footer>
-        <h1>Procuro minha primeira vaga como dev web júnior.</h1>
-
+    <footer id="contatos">
+        <h2>Procuro minha primeira vaga como dev web júnior.</h2>
+        
         <p class="title">Todo o código está no GitHub. Se algum projeto chamou sua atenção, escreva para mim.</p>
 
         <div class="buttons">

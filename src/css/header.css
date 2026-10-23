@@ -21,3 +21,9 @@ header {
 nav a {
     color: var(--tinta);
 }
+
+#logo { 
+    font-family: var(--font-titulos); 
+    font-size: 2rem; 
+    font-weight: 700; 
+}

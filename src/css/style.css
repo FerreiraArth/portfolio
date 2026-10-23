@@ -11,6 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-padding-top: 72px;
 }
 
 :root {
@@ -32,7 +33,9 @@ body {
     font-family: var(--font-principal); 
     color: var(--tinta);
     background-color: var(--fundo);
+    line-height: 1.6;
 }
+
 h1, h2, h3 { 
     font-family: var(--font-titulos);
 }
@@ -45,4 +48,12 @@ a {
     display: flex;
     justify-content: center;
     padding: 8px;
+}
+
+.cor {
+    color: var(--roxo);
+}
+    
+a:focus-visible {
+    box-shadow: var(--roxo) 0px 3px 12px;
 }
